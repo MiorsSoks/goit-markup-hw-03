@@ -18,8 +18,7 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-ul,
-ol {
+ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -294,6 +293,9 @@ body {
 }
 /* ============ Фильтр конец ============ */
 /* ============ Проекты ============ */
+.projects-container {
+  padding-bottom: 94px;
+}
 .projects-list {
   display: flex;
   flex-wrap: wrap;
@@ -303,9 +305,12 @@ body {
 .projects-list-item {
   margin-top: 30px;
   margin-left: 30px;
-  border: 1px solid #eeeeee;
 }
-.content-projects .projects-subtitle {
+.content-projects {
+  border: 1px solid #eeeeee;
+  padding: 20px 24px;
+}
+.projects-subtitle {
   font-family: var(--title-font-family);
   font-size: 18px;
   line-height: 2;
