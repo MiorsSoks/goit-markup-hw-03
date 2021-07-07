@@ -45,11 +45,13 @@ body {
   margin: 0 auto;
 }
 /* ============ Хедер ============ */
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 .navigation {
   display: flex;
@@ -120,8 +122,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 .hero-heading {
   color: var(--primary-text-white-color);
@@ -135,6 +135,8 @@ body {
 }
 .hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-button {
   font-family: inherit;
@@ -154,7 +156,7 @@ body {
 }
 /* ============ Герой конец ============ */
 /* ============ Особенности ============ */
-.qualities-container {
+.qualities {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -165,6 +167,9 @@ body {
 }
 .qualities-list-item:not(:last-child) {
   margin-right: 30px;
+}
+.qualities-list-item {
+  width: 270px;
 }
 .qualities-list-subtitle {
   font-size: 14px;
@@ -189,7 +194,7 @@ body {
 /* ============ Особенности конец ============ */
 
 /* ============ Чем мы занимаемся =========== */
-.about-container {
+.about {
   padding-bottom: 94px;
 }
 
@@ -200,10 +205,7 @@ body {
 /* ============ Чем мы занимаемся конец =========== */
 
 /* ============ Наша команда =========== */
-.team-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .team-list {
   display: flex;
   margin-left: -30px;
@@ -227,13 +229,16 @@ body {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
+.team-subtitle-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .team-subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 30px;
 }
 .team-text {
   font-size: 16px;
@@ -242,25 +247,29 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-grey-color);
   margin-top: 10px;
-  margin-bottom: 30px;
 }
 .team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* ============ Наша команда конец =========== */
 
 /* ============ СТУДИЯ конец ============ */
 
 /* ============ ПОРТФОЛИО ============ */
+.projects {
+  margin-top: 94px;
+  padding-bottom: 94px;
+}
 
 /* ============ Фильтр ============ */
 .filter-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  margin-top: 94px;
 }
-.filter-button: not(: last-child) {
+.filter-item: not(: last-child) {
   margin-right: 8px;
 }
 .filter-button {
@@ -293,9 +302,7 @@ body {
 }
 /* ============ Фильтр конец ============ */
 /* ============ Проекты ============ */
-.projects-container {
-  padding-bottom: 94px;
-}
+
 .projects-list {
   display: flex;
   flex-wrap: wrap;
@@ -308,6 +315,7 @@ body {
 }
 .content-projects {
   border: 1px solid #eeeeee;
+  border-top: none;
   padding: 20px 24px;
 }
 .projects-subtitle {
@@ -330,8 +338,6 @@ body {
 .footer-container {
   display: flex;
   flex-direction: column;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .logo-footer {
   color: var(--primary-text-white-color);
@@ -357,6 +363,8 @@ body {
 }
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .link.address:focus,
 .link.address:hover {
