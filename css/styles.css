@@ -119,9 +119,7 @@ body {
 /* ============ СТУДИЯ ============ */
 /* ============ Герой ============ */
 .hero-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 .hero-heading {
   color: var(--primary-text-white-color);
@@ -230,8 +228,8 @@ body {
   margin-bottom: 50px;
 }
 .team-subtitle-text {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-subtitle {
   font-weight: 500;
@@ -259,7 +257,7 @@ body {
 
 /* ============ ПОРТФОЛИО ============ */
 .projects {
-  margin-top: 94px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
